@@ -1,0 +1,42 @@
+.card{
+    width: calc(230px - 32px * 2);
+    height: calc(454px - 32px * 2);
+    border-radius: 8px;
+    padding: 32px;
+    background-color: white;
+    flex-shrink: 0;
+}
+
+.profile_box{
+    display: flex;
+    column-gap: 19px;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.profile_image{
+    height: 48px;
+    width: 48px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.major{
+    color: var(--gray-600);
+}
+
+.level_box, .article_box, .my_box{
+    display: grid;
+    row-gap: 8px;
+    margin: 26px 0;
+}
+
+.my_box{
+    margin-bottom: 0;
+}

@@ -1,0 +1,8 @@
+.info_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_box > div{
+    color: var(--gray-600);
+}
