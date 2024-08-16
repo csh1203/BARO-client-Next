@@ -30,6 +30,7 @@
     font-family: 'Katuri';
     font-size: 24px;
     font-weight: 600;
+    color: var(--black);
 }
 
 .search_input{
