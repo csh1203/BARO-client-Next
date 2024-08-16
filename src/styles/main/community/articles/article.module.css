@@ -78,3 +78,23 @@
     height: 13px;
     color: var(--gray-300);
 }
+
+.people_box{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: var(--gray-300);
+}
+
+.full_people_box{
+    color: var(--green);
+}
+
+.person_icon{
+    width: 14px;
+    height: 14px;
+}
+
+.total_people{
+    font-size: 14px;
+}
