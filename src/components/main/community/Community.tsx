@@ -3,7 +3,7 @@
 import { useState } from "react";
 import ScopeBar from "./scopeBar/ScopeBar";
 import styles from '@/styles/main/community/community.module.css'
-import Article from "./articles/Article";
+import Article from "./articles/ArticleBox";
 
 export default function Community() {
     const [ community, setCommunity ] = useState<number>(0);

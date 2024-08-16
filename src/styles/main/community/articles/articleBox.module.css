@@ -1,0 +1,5 @@
+.article_box{
+    margin: 34px 0;
+    display: grid;
+    row-gap: 24px;
+}
