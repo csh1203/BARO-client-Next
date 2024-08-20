@@ -1,0 +1,31 @@
+.comment_box{
+    width: 309px;
+    display: flex;
+    flex-direction: column;
+    align-items: end; 
+    flex-shrink: 0;
+}
+
+.comment_input{
+    width: calc(100% - 16px * 2);
+    height: calc(191px - 20px * 2);
+    border-radius: 12px;
+    background-color: white;
+    padding: 20px 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.comment_button{
+    width: 141px;
+    height: 35px;
+    background-color: var(--black);
+    color: white;
+    border-radius: 4px;
+    font-weight: 400;
+    outline: none;
+    border: none;
+}

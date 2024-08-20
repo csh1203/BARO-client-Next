@@ -1,0 +1,11 @@
+.main{
+    margin-top: 50px;
+}
+
+.comment_box{
+    display: flex;
+    column-gap: 31px;
+    align-items: start;
+    margin-bottom: 80px;
+}
+

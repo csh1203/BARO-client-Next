@@ -1,0 +1,38 @@
+.comment{
+    width: 100%;
+}
+
+.profile_box{
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.profile_image{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.name{
+    font-weight: 400;
+}
+
+.major{
+    font-size: 10px;
+    color: var(--gray-600);
+}
+
+.content{
+    font-size: 14px;
+    color: var(--black);
+    margin: 8px 0;
+}
+
+.date{
+    font-size: 10px;
+    color: var(--gray-500);
+    margin-bottom: 20px;
+}
